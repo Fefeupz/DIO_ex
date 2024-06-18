@@ -28,8 +28,11 @@ class bicicleta:
     def __str__(self):
         return f"{self.__class__.__name__}: {', '.join([f'{chave} = {valor}' for chave, valor in self.__dict__.items()])}"
         
-b1 = bicicleta ("Vermelho", "Caloi2000", 2000, 189)
+cor = input("Digite a cor da bicicleta: ")
+modelo = input("Digite o modelo da bicicleta: ")
+ano = int(input("Digite o ano da bicicleta: "))
+valor = float(input("Digite o valor da bicicleta: "))
+
+b1 = bicicleta(cor, modelo, ano, valor)
+print(b1)
 b1.buzinar()
-b1.parar()
-b1.trocar_marcha(2)
-b1.correr()

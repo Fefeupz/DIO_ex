@@ -1,2 +1,2 @@
-# DIO_ex
-Alguns códigos criados no bootcamp da Dio com a VIVO. Python backend. 😃
+# DIO_EXEMPLOS
+Alguns códigos desenvolvidos no bootcamp da Dio com a VIVO. Python backend. 😃
